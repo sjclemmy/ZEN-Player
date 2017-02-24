@@ -31,12 +31,12 @@ div#zen {
 
 
 @media only screen and (max-width: 480px) {
-	
+
 	body {
 		/* Prevents Mobile Safari from bumping up font sizes in landscape */
-		-webkit-text-size-adjust: 100%; 
+		-webkit-text-size-adjust: 100%;
 	    }
-	
+
 }
 
 

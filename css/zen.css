@@ -24,9 +24,9 @@
 	width: 150px;
 	height: 150px;
 	margin: -25px 0 0 -25px;
-	
+
 	background: hsla(0,0%,0%,.05); /* fallback */
-	background: -webkit-gradient(radial, center top, 150, center top, 0, from(hsla(0,0%,100%,.5)), to(hsla(0,0%,50%,.1)));	
+	background: -webkit-gradient(radial, center top, 150, center top, 0, from(hsla(0,0%,100%,.5)), to(hsla(0,0%,50%,.1)));
 	background: -webkit-radial-gradient(50% 0 180deg, circle farthest-side, hsla(0,0%,50%,.05), hsla(0,0%,100%,.4) );
 	background:    -moz-radial-gradient(50% 0 180deg, circle farthest-side, hsla(0,0%,50%,.05), hsla(0,0%,100%,.4) );
 	background:     -ms-radial-gradient(50% 0 180deg, circle farthest-side, hsla(0,0%,50%,.05), hsla(0,0%,100%,.4) );
@@ -65,31 +65,31 @@
 
 /* button */
 
-#zen .button {	
+#zen .button {
 	position: absolute;
 	display: inline-block;
 	border: none;
 	border-radius: 50px;
 	width: 100px;
 	height: 100px;
-	
+
 	cursor: pointer;
-	
+
 	background: hsla(0,0%,50%,1); /* fallback */
-	background: #000 -webkit-gradient(radial, center top, 200, center top, 20, from(hsla(0,0%,100%,0)), to(hsla(0,0%,100%,.65)));	
+	background: #000 -webkit-gradient(radial, center top, 200, center top, 20, from(hsla(0,0%,100%,0)), to(hsla(0,0%,100%,.65)));
 	background: #000 -webkit-radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.65) 20%, rgba(255, 255, 255, .35) 100%);
 	background: #000    -moz-radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.65) 20%, rgba(255, 255, 255, .35) 100%);
 	background: #000     -ms-radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.65) 20%, rgba(255, 255, 255, .35) 100%);
 	background: #000      -o-radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.65) 20%, rgba(255, 255, 255, .35) 100%);
 	background: #000 	     radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.65) 20%, rgba(255, 255, 255, .35) 100%);
-	
+
 	-webkit-box-shadow: inset rgba(0,0,0,0.2) 0 -3px 4px 1px, inset rgba(252,255,255,0.4) 0 2px 8px 0px, rgba(0,0,0,.8) 0 3px 8px -1px;
 			box-shadow: inset rgba(0,0,0,0.2) 0 -3px 4px 1px, inset rgba(252,255,255,0.4) 0 2px 8px 0px, rgba(0,0,0,.8) 0 3px 8px -1px;
-	
-	-webkit-transition: -webkit-transform .3s cubic-bezier(0,.5,.5,1), -webkit-border-radius .2s cubic-bezier(0,.5,0,1);	
-	   -moz-transition:    -moz-transform .3s cubic-bezier(0,.5,.5,1),    -moz-border-radius .2s cubic-bezier(0,.5,0,1);	
-	    -ms-transition:     -ms-transform .3s cubic-bezier(0,.5,.5,1),     -ms-border-radius .2s cubic-bezier(0,.5,0,1);	
-		 -o-transition: 	 -o-transform .3s cubic-bezier(0,.5,.5,1), 	 	-o-border-radius .2s cubic-bezier(0,.5,0,1);	
+
+	-webkit-transition: -webkit-transform .3s cubic-bezier(0,.5,.5,1), -webkit-border-radius .2s cubic-bezier(0,.5,0,1);
+	   -moz-transition:    -moz-transform .3s cubic-bezier(0,.5,.5,1),    -moz-border-radius .2s cubic-bezier(0,.5,0,1);
+	    -ms-transition:     -ms-transform .3s cubic-bezier(0,.5,.5,1),     -ms-border-radius .2s cubic-bezier(0,.5,0,1);
+		 -o-transition: 	 -o-transform .3s cubic-bezier(0,.5,.5,1), 	 	-o-border-radius .2s cubic-bezier(0,.5,0,1);
 			transition: 		transform .3s cubic-bezier(0,.5,.5,1), 		   border-radius .2s cubic-bezier(0,.5,0,1);
 }
 
@@ -100,18 +100,18 @@
 		-ms-transform:  scale(.5);
 		 -o-transform:  scale(.5);
 			transform:  scale(.5);
-	
+
 	background: hsla(0,0%,40%,1); /* fallback */
-	background: #000 -webkit-gradient(radial, center top, 200, center top, 20, from(hsla(0,0%,100%,0)), to(hsla(0,0%,100%,.48)));	
+	background: #000 -webkit-gradient(radial, center top, 200, center top, 20, from(hsla(0,0%,100%,0)), to(hsla(0,0%,100%,.48)));
 	background: #000 -webkit-radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, .28) 100%);
 	background: #000    -moz-radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, .28) 100%);
 	background: #000     -ms-radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, .28) 100%);
 	background: #000      -o-radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, .28) 100%);
 	background: #000 	     radial-gradient(50% 0 180deg, circle farthest-side, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, .28) 100%);
 
-	-webkit-box-shadow: inset rgba(0,0,0,0.5) 0 -4px 4px 1px, inset rgba(252,255,255,0.2) 0 6px 4px -2px, rgba(0,0,0,.6) 0 4px 4px 1px;	
-			box-shadow: inset rgba(0,0,0,0.5) 0 -4px 4px 1px, inset rgba(252,255,255,0.2) 0 6px 4px -2px, rgba(0,0,0,.6) 0 4px 4px 1px;	
-	
+	-webkit-box-shadow: inset rgba(0,0,0,0.5) 0 -4px 4px 1px, inset rgba(252,255,255,0.2) 0 6px 4px -2px, rgba(0,0,0,.6) 0 4px 4px 1px;
+			box-shadow: inset rgba(0,0,0,0.5) 0 -4px 4px 1px, inset rgba(252,255,255,0.2) 0 6px 4px -2px, rgba(0,0,0,.6) 0 4px 4px 1px;
+
 	-webkit-transition: -webkit-transform .2s cubic-bezier(0,.5,0,1), -webkit-border-radius 1s cubic-bezier(0,.5,0,1);
 	   -moz-transition:    -moz-transform .2s cubic-bezier(0,.5,0,1),    -moz-border-radius 1s cubic-bezier(0,.5,0,1);
 		-ms-transition: 	-ms-transform .2s cubic-bezier(0,.5,0,1), 	  -ms-border-radius 1s cubic-bezier(0,.5,0,1);
@@ -121,11 +121,11 @@
 
 
 #zen .button:active, #zen.play .button:active {
-	-webkit-transform:  scale(.5);	
-	   -moz-transform:  scale(.5);	
-		-ms-transform:  scale(.5);	
-		 -o-transform:  scale(.5);	
-			transform:  scale(.5);	
+	-webkit-transform:  scale(.5);
+	   -moz-transform:  scale(.5);
+		-ms-transform:  scale(.5);
+		 -o-transform:  scale(.5);
+			transform:  scale(.5);
 }
 #zen.play .button {
 	border-radius: 30px;
@@ -133,7 +133,7 @@
 	   -moz-transform:  scale(.54);
 	    -ms-transform:  scale(.54);
 		 -o-transform:  scale(.54);
-			transform:  scale(.54);	
+			transform:  scale(.54);
 }
 
 
@@ -154,12 +154,12 @@
 }
 #zen .button .icon.play {
 	background: url(../img/play.png) no-repeat;
-	
-	-webkit-transition: opacity 1s cubic-bezier(.5,.5,.5,1);	
-	   -moz-transition: opacity 1s cubic-bezier(.5,.5,.5,1);	
-		-ms-transition: opacity 1s cubic-bezier(.5,.5,.5,1);	
-		 -o-transition: opacity 1s cubic-bezier(.5,.5,.5,1);	
-			transition: opacity 1s cubic-bezier(.5,.5,.5,1);	
+
+	-webkit-transition: opacity 1s cubic-bezier(.5,.5,.5,1);
+	   -moz-transition: opacity 1s cubic-bezier(.5,.5,.5,1);
+		-ms-transition: opacity 1s cubic-bezier(.5,.5,.5,1);
+		 -o-transition: opacity 1s cubic-bezier(.5,.5,.5,1);
+			transition: opacity 1s cubic-bezier(.5,.5,.5,1);
 }
 #zen.play .button .play {
 	opacity: 0;
@@ -171,16 +171,16 @@
 }
 
 #zen .button .icon.pause {
-	opacity: 0;	
+	opacity: 0;
 	background: url(../img/pause.png) no-repeat;
 }
 #zen.play .button .pause {
 	opacity: 1;
-	-webkit-transition: opacity 1s cubic-bezier(.5,.5,.5,1);	
-	   -moz-transition: opacity 1s cubic-bezier(.5,.5,.5,1);	
-		-ms-transition: opacity 1s cubic-bezier(.5,.5,.5,1);	
-		 -o-transition: opacity 1s cubic-bezier(.5,.5,.5,1);	
-			transition: opacity 1s cubic-bezier(.5,.5,.5,1);	
+	-webkit-transition: opacity 1s cubic-bezier(.5,.5,.5,1);
+	   -moz-transition: opacity 1s cubic-bezier(.5,.5,.5,1);
+		-ms-transition: opacity 1s cubic-bezier(.5,.5,.5,1);
+		 -o-transition: opacity 1s cubic-bezier(.5,.5,.5,1);
+			transition: opacity 1s cubic-bezier(.5,.5,.5,1);
 }
 
 
@@ -208,9 +208,9 @@
 #zen .buffer.loaded {
 	opacity: 0;
 	-webkit-transition: opacity .5s;
-	   -moz-transition: opacity .5s;	
-		-ms-transition: opacity .5s;	
-		 -o-transition: opacity .5s;	
+	   -moz-transition: opacity .5s;
+		-ms-transition: opacity .5s;
+		 -o-transition: opacity .5s;
 			transition: opacity .5s;
 }
 
@@ -239,53 +239,53 @@
 	height: 98px;
 	margin: 1px;
 	border-radius: 50px;
-	
+
 	background: url(../img/circle-still.png); /* fallback */
 	background: url(../img/circle.png) no-repeat, -webkit-gradient(radial, center center, 35, center center, 15, from(hsla(200,100%,0%,0)), to(hsla(200,100%,0%,1)));
 	background: url(../img/circle.png) no-repeat, -webkit-radial-gradient(50% 50%, hsla(200,100%,0%,1), hsla(200,100%,0%,1), hsla(200,100%,0%,0) 50%);
 	background: url(../img/circle.png) no-repeat,    -moz-radial-gradient(50% 50%, hsla(200,100%,0%,1), hsla(200,100%,0%,1), hsla(200,100%,0%,0) 50%);
 	background: url(../img/circle.png) no-repeat,      -o-radial-gradient(50% 50%, hsla(200,100%,0%,1), hsla(200,100%,0%,1), hsla(200,100%,0%,0) 50%);
 	background: url(../img/circle.png) no-repeat, 	      radial-gradient(50% 50%, hsla(200,100%,0%,1), hsla(200,100%,0%,1), hsla(200,100%,0%,0) 50%);
-		
+
 	background-color: hsl(100,100%,60%);
-	
+
 	-webkit-box-shadow: inset rgba(0,0,0,.5) 0 0 5px 3px;
 			box-shadow: inset rgba(0,0,0,.5) 0 0 5px 3px;
-	
+
 	-webkit-transform:  scale(.7) rotate(-180deg);
 	   -moz-transform:  scale(.7) rotate(-180deg);
 		-ms-transform:  scale(.7) rotate(-180deg);
 		 -o-transform:  scale(.7) rotate(-180deg);
 			transform:  scale(.7) rotate(-180deg);
-	
-	-webkit-transition: all .5s ease-in;	
-	   -moz-transition: all .5s ease-in;	
-		-ms-transition: all .5s ease-in;	
-		 -o-transition: all .5s ease-in;	
-			transition: all .5s ease-in;	
+
+	-webkit-transition: all .5s ease-in;
+	   -moz-transition: all .5s ease-in;
+		-ms-transition: all .5s ease-in;
+		 -o-transition: all .5s ease-in;
+			transition: all .5s ease-in;
 }
 
 
 #zen.play .circle {
-	background-color: hsl(200,100%,60%);	
-	
+	background-color: hsl(200,100%,60%);
+
 	-webkit-transform: scale(1) rotate(0deg);
 	   -moz-transform: scale(1) rotate(0deg);
 		-ms-transform: scale(1) rotate(0deg);
 		 -o-transform: scale(1) rotate(0deg);
 			transform: scale(1) rotate(0deg);
-	
+
 	-webkit-transition: -webkit-transform 1s cubic-bezier(0,.5,0,1), background-color .6s linear;
 	   -moz-transition:    -moz-transform 1s cubic-bezier(0,.5,0,1), background-color .6s linear;
 		-ms-transition: 	-ms-transform 1s cubic-bezier(0,.5,0,1), background-color .6s linear;
 		 -o-transition: 	 -o-transform 1s cubic-bezier(0,.5,0,1), background-color .6s linear;
 			transition: 		transform 1s cubic-bezier(0,.5,0,1), background-color .6s linear;
-	
+
 	-webkit-animation: rotate 20s linear infinite 1s;
 	   -moz-animation: rotate 20s linear infinite 1s;
 	    -ms-animation: rotate 20s linear infinite 1s;
 	     -o-animation: rotate 20s linear infinite 1s;
-	        animation: rotate 20s linear infinite 1s;	
+	        animation: rotate 20s linear infinite 1s;
 }
 
 
@@ -294,30 +294,52 @@
 	   -moz-animation: rotate 20s linear infinite;
 	    -ms-animation: rotate 20s linear infinite;
 	     -o-animation: rotate 20s linear infinite;
-	        animation: rotate 20s linear infinite;	
+	        animation: rotate 20s linear infinite;
 }
 
 @-webkit-keyframes rotate {
-	0%   { -webkit-transform: rotate(   0deg); } 
+	0%   { -webkit-transform: rotate(   0deg); }
 	100% { -webkit-transform: rotate(-360deg); }
 }
 
 @-moz-keyframes rotate {
-	0%   { -moz-transform: rotate(   0deg); } 
+	0%   { -moz-transform: rotate(   0deg); }
 	100% { -moz-transform: rotate(-360deg); }
 }
 
 @-ms-keyframes rotate {
-	0%   { -ms-transform: rotate(   0deg); } 
+	0%   { -ms-transform: rotate(   0deg); }
 	100% { -ms-transform: rotate(-360deg); }
 }
 
 @-o-keyframes rotate {
-	0%   { -o-transform: rotate(   0deg); } 
+	0%   { -o-transform: rotate(   0deg); }
 	100% { -o-transform: rotate(-360deg); }
 }
 
 @keyframes rotate {
-	0%   { transform: rotate(   0deg); } 
+	0%   { transform: rotate(   0deg); }
 	100% { transform: rotate(-360deg); }
 }
+
+.control-button {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.control-button .controller {
+	cursor: pointer;
+}
+
+.control-button .controller:active {
+	opacity: 0.7;
+}
+
+.control-button .back {
+	margin-right: 100px;
+	transform: rotate(180deg);
+}
+
