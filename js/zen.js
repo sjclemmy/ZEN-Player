@@ -112,6 +112,7 @@ $(document).ready(function () {
     $("#zen").removeClass("play");
     $('#zen .progress').css({rotate: '0deg'});
     status = "stop";
+    moveSong('fwd');
   });
 
 
