@@ -33,14 +33,26 @@ $(document).ready(function () {
   var status = "stop";
   var dragging = false;
 
+  function moveSong(direction) {
+
+    if (status == "play") {
+      onClick();
+      direction == 'fwd' ? playListIndex++ : playListIndex--;
+      setSong();
+      onClick();
+    } else {
+      direction == 'fwd' ? playListIndex++ : playListIndex--;
+      setSong();
+      onClick();
+    }
+  }
+
+
   $('.back').click(function (ev) {
     if (playListIndex == 0) {
       return;
     }
-    onClick();
-    playListIndex--;
-    setSong();
-    onClick();
+    moveSong('back');
   });
 
   $('.fwd').click(function (ev) {
@@ -48,12 +60,7 @@ $(document).ready(function () {
     if (playListIndex == playListIndexMax) {
       return;
     }
-
-    onClick();
-    playListIndex++;
-    setSong();
-    onClick();
-
+    moveSong('fwd')
   });
 
 
