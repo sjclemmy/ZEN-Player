@@ -34,17 +34,12 @@ $(document).ready(function () {
   var dragging = false;
 
   function moveSong(direction) {
-
-    if (status == "play") {
-      onClick();
-      direction == 'fwd' ? playListIndex++ : playListIndex--;
-      setSong();
-      onClick();
-    } else {
-      direction == 'fwd' ? playListIndex++ : playListIndex--;
-      setSong();
+    direction == 'fwd' ? playListIndex++ : playListIndex--;
+    if (status == "play") { //stop.
       onClick();
     }
+    setSong();
+    onClick(); //play
   }
 
 
